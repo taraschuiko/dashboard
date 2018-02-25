@@ -67,5 +67,13 @@ var chart = new Chart(ctx, {
     		}],
     	},
     	tooltips: {enabled: false},
+    	layout: {
+    		padding: {
+    			left: 0,
+    			right: 12,
+    			top: 0,
+    			bottom: 0
+    		}
+    	}
     }
 });
